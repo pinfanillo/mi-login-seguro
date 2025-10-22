@@ -1,0 +1,16 @@
+{
+  "name": "login-seguro-server",
+  "version": "1.0.0",
+  "description": "Servidor de ejemplo con login y registro seguro.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "init-db": "node init_db.js"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "express": "^4.19.2",
+    "express-session": "^1.18.0",
+    "sqlite3": "^5.1.7"
+  }
+}
