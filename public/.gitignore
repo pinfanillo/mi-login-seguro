@@ -1,0 +1,2 @@
+git add .
+git commit -m "Excluir node_modules y users.db usando .gitignore"
